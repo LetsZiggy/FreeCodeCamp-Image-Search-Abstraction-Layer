@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "letsziggy-freecodecamp-image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp - API Projects - Image Search Abstraction Layer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/LetsZiggy/FreeCodeCamp-Image-Search-Abstraction-Layer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "mongodb"
+  ]
+}
