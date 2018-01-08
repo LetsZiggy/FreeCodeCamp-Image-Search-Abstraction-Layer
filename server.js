@@ -111,7 +111,7 @@ let server = http.createServer((req, res) => {
   }
   else if(req.url.includes('favicon.ico')) {
     res.writeHead(200, { 'Content-Type': 'image/x-icon' });
-    res.end('https://cdn.glitch.com/22aed6df-466d-4435-bab7-885f082a7563%2Fblog_logo.ico?1515317128270');
+    res.end('https://cdn.glitch.com/df0642e9-fb3f-4138-a464-3fa9b1a9b420%2Fblog_logo.ico?1515316087927');
   }
   else {
     determineQuery(req.url, res);
