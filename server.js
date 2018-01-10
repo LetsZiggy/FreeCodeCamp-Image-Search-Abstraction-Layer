@@ -1,3 +1,8 @@
+/**
+***  RESOURCES:
+***    Access data from http/https get ---> https://codeburst.io/4-ways-for-making-http-s-requests-with-node-js-c524f999942d
+**/
+
 const https = require('https');
 const http = require('http');
 const url = require('url');
