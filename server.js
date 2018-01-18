@@ -9,7 +9,7 @@ const url = require('url');
 const fs = require('fs');
 const mongo = require('mongodb').MongoClient;
 
-let dbURL = `mongodb://${process.env.DBUSER}:${process.env.DBPASSWORD}@ds245687.mlab.com:45687/freecodecamp`;
+let dbURL = `mongodb://${process.env.DBUSER}:${process.env.DBPASSWORD}@${process.env.DBURL}/freecodecamp`;
 let google = `https://www.googleapis.com/customsearch/v1?key=${process.env.GOOGLEKEY}&cx=${process.env.GOOGLEID}&searchType=image`;
 let html = null;
 let css = null;
