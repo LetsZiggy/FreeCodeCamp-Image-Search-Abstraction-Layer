@@ -1,2 +1,2 @@
 # FreeCodeCamp - API Projects - Image Search Abstraction Layer
-**Using https, http, url, fs and mongodb**
+**Using http, https, url, fs and mongodb**
