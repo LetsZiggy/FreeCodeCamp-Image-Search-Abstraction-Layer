@@ -1,13 +1,25 @@
 body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   font-family: Helvetica, sans-serif;
-  padding: 0.5rem 2rem;
+  padding: 0rem;
+  margin: 0rem;
+  overflow: hidden;
 }
-div {
+#content {
+  position: relative;
+  width: calc(100% - 4rem);
+  height: calc(100% - 3rem);
+  padding : 0rem 2rem;
+  overflow: auto;
+}
+#content div {
   padding-left: 1rem;
   margin: 0.5rem;
   border-left: 5px solid gainsboro;
 }
-p {
+#content div p {
   -webkit-margin-before: 0rem;
   -webkit-margin-after: 0rem;
   -webkit-margin-start: 0rem;
@@ -15,31 +27,31 @@ p {
   margin: 1rem 0rem 0rem 0rem;
   text-decoration: underline;
 }
-ol {
+#content div ol {
   -webkit-margin-before: 0rem;
   -webkit-margin-after: 0rem;
   -webkit-margin-start: 0rem;
   -webkit-margin-end: 0rem;
   margin: 0.5rem 0rem 0rem 0rem;
 }
-li {
+#content div ol li {
   font-size: 0.85rem;
   margin-bottom: 0.1rem;
 }
-span {
+#content h3 {
+  -webkit-margin-before: 0rem;
+  -webkit-margin-after: 0rem;
+  -webkit-margin-start: 0rem;
+  -webkit-margin-end: 0rem;
+  margin: 1rem 0rem 0rem 0rem;
+}
+#content span {
   display: inline-block;
   margin: 3px 0rem;
   padding: 3px;
   font-size: 0.75rem;
   color: firebrick;
   background-color: rgba(255, 150, 150, 0.1);
-}
-h3 {
-  -webkit-margin-before: 0rem;
-  -webkit-margin-after: 0rem;
-  -webkit-margin-start: 0rem;
-  -webkit-margin-end: 0rem;
-  margin: 1rem 0rem 0rem 0rem;
 }
 #footer {
   position: absolute;
