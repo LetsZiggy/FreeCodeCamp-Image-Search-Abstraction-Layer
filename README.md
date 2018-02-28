@@ -1,2 +1,2 @@
-# FreeCodeCamp - API Projects - Image Search Abstraction Layer
-**Using http, https, url, fs and mongodb**
+# [FreeCodeCamp](https://www.freecodecamp.org/map) - API Projects - [Image Search Abstraction Layer](https://www.freecodecamp.org/challenges/image-search-abstraction-layer)
+**Using [http](https://nodejs.org/api/http.html), [https](https://nodejs.org/api/https.html), [url](https://nodejs.org/api/url.html), [fs](https://nodejs.org/api/fs.html) and [mongodb](https://github.com/mongodb/node-mongodb-native)**
